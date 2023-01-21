@@ -1,0 +1,12 @@
+.light-theme {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  background-color: none;
+  color: #ffffff;
+}
+.dark-theme {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}

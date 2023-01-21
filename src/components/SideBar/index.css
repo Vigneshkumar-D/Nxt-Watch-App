@@ -1,0 +1,21 @@
+.link-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+}
+.loader-container {
+  align-self: center;
+}
+.icon {
+  font-size: 20px;
+  margin-left: 10px;
+}
+.dark-theme-icon {
+  color: #cccccc;
+  font-size: 20px;
+  margin-right: 20px;
+}
+.active-button {
+  color: #ff0000;
+}

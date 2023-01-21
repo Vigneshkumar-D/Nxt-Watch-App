@@ -1,0 +1,8 @@
+.hr-line {
+  display: flex;
+  text-align: left;
+  padding-left: 0px;
+}
+.icons {
+  font-size: 23px;
+}
