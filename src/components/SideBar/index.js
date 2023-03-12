@@ -54,29 +54,11 @@ const SideBar = props => {
         const {isDarkMode} = value
         const textColor = isDarkMode ? '#ffffff' : '#212121'
 
-        /* const iconColor = isDarkMode ? 'dark-theme-icon' : 'light-theme-icon' */
-
         return (
           <HomeLeftContainer theme={isDarkMode}>
             <CategoryContainer>
               <nav>
                 <CategoryList>
-                  {/* <Link to="/" className="link-item">
-                  <AiFillHome className={iconColor} />
-                  <ListItem color={textColor}>Home</ListItem>
-                </Link>
-                <Link to="/trending" className="link-item">
-                  <HiFire className={iconColor} />
-                  <ListItem color={textColor}>Trending</ListItem>
-                </Link>
-                <Link to="/gaming" className="link-item">
-                  <SiYoutubegaming className={iconColor} />
-                  <ListItem color={textColor}>Gaming Video</ListItem>
-                </Link>
-                <Link to="/saved-videos" className="link-item">
-                  <BiListPlus className={iconColor} />
-                  <ListItem color={textColor}>Saved videos</ListItem>
-                </Link> */}
                   {sideBarContent.map(eachContent => {
                     const {icon} = eachContent
                     const isClicked = eachContent.id === tabId
